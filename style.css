@@ -1,0 +1,90 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1509803874385-db7c23652552);
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+/* TOP*/
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.buttons button {
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+.buttons button:active, .buttons button:hover, .buttons button:focus {
+    background: white;
+    color: rgb(18, 157, 212);
+}
+
+/* WEATHER */
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+}
+
+.day {
+    width: 18%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding : 7px;
+}
+
+.title,.icon {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.icon{
+    font-size: 40px;
+}
+
+.temperature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    padding: 7px;
+}
+
+.high {
+    color: orangered;
+    font-size: 20px;
+}
+
+.low {
+    font-size: 15px;
+    color: rgb(18, 157, 212);
+}
